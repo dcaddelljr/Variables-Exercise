@@ -6,19 +6,23 @@
         {
             int myDogs = 2;
 
-            string myFullName = "Dwight" + " " + "Caddell";
-            char middleInitial = 'A';
-            bool isConfused = true;
+           /*Declaration Syntax and Initialization
+           string myfullName
+           myFullName = "Dwight" + " " + "Caddell";*/
 
+            string myFullName = "Dwight" + " " + "Caddell";
+                       
+            char middleInitial = 'A'; //char has to have single ticks
+            bool isConfused = true; //No quotes for bool
             double gradYear = 1998;
 
-            //Decimal
-            var yearsTaught = 12.5m;
+            
+            var yearsTaught = 12.5m; //Decimal
 
-            Console.WriteLine($"My name is {myFullName} with a middle inital of {middleInitial}.");
+            Console.WriteLine($"My name is {myFullName} with a middle inital of {middleInitial}.\n"); //don't put a space after \n
             Console.WriteLine($"I have {myDogs} dogs.");
             Console.WriteLine($"I graduated high school in {gradYear} and taught school for {yearsTaught}.");
-            Console.WriteLine($"{isConfused}");
+            Console.WriteLine($"It is {isConfused} that I get confused in this class.");
 
         }
     }
